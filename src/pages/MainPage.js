@@ -18,8 +18,8 @@ function MainPage() {
 
                 </p>
 
-                <div style={{backgroundColor:'green',width:'20%',marginLeft:'50%',marginTop:'5%',marginBottom:'20%',borderRadius:10}}>
-              <Link to="/ResumePage"  style={{textDecoration:'none',color:'white',marginLeft:'25%' }}>Continue</Link>
+                <div >
+              <Link to="/ResumePage"   ><button type="button" class="btn btn-success" style={{textDecoration:'none',color:'white',marginLeft:'25%' }}>Continue</button></Link>
             </div>
                 </div>
 

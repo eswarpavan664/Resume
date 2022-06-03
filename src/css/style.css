@@ -1,0 +1,23 @@
+.form_1_{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.a4{
+    height: 877px;
+    width: 620px;
+    border: 2px solid black;
+}
+.formate_one_{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+@media print{
+    body *:not(#resume):not(#resume *){
+        visibility: hidden;
+    }
+    
+}
